@@ -1,6 +1,5 @@
 # VM-control
 #Its Original is located in https://github.com/giovtorres/kvm-install-vm
-#Because I am not good at Git, I couldn't share its source by Git process 
 
 # kvm-install-vm
 A bash wrapper around virt-install to build virtual machines on a local KVM hypervisor. You can run it as a normal user which will use qemu:///session to connect locally to your KVM domains.
