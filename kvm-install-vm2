@@ -681,8 +681,8 @@ function set_defaults ()
     DNSDOMAIN=kvmcloud.local         # DNS domain
     GRAPHICS=spice                  # Graphics type
     RESIZE_DISK=false               # Resize disk (boolean)
-#    IMAGEDIR=${HOME}/virt/images    # Directory to store images
-    IMAGEDIR=/var/lib/libvirt/images    # Directory to store images
+    IMAGEDIR=${HOME}/virt/images    # Directory to store images
+ #  IMAGEDIR=/var/lib/libvirt/images    # Directory to store images
     VMDIR=${HOME}/virt/vms          # Directory to store virtual machines
     BRIDGE=virbr0                   # Hypervisor bridge
     PUBKEY=""                       # SSH public key
